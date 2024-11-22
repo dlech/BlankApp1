@@ -13,6 +13,10 @@ using namespace Windows::UI::Xaml::Navigation;
 using namespace BlankApp1;
 using namespace BlankApp1::implementation;
 
+struct Example : DataTemplateSelectorT<Example>
+{
+};
+
 /// <summary>
 /// Creates the singleton application object.  This is the first line of authored code
 /// executed, and as such is the logical equivalent of main() or WinMain().
